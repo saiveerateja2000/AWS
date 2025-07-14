@@ -99,12 +99,12 @@ Now private subnets can access the internet via NAT.
 
 ## ✅ Architecture Overview
 
-VPC: 10.0.0.0/16
+`VPC: 10.0.0.0/16
 ├── IGW → public-subnet-[1,2]
 │   ├── EC2 (public IP) → Internet
 │   └── NAT Gateway
 └── private-subnet-[1,2]
-    └── EC2 (no public IP) → NAT → IGW → Internet
+    └── EC2 (no public IP) → NAT → IGW → Internet`
 
 
 ---
