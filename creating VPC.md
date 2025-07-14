@@ -21,6 +21,7 @@ Creates the base network with ~65,536 IPs.
 
 > Enable Auto-assign Public IP only for public subnets:
 > - Subnets → Actions → Modify auto-assign IP settings
+> Enabling Auto-assign Public IP ensures that any EC2 instance launched in the public subnet automatically receives a public IPv4 address. Without it, the instance won't have internet access—even though it's in a public subnet with an IGW.
 
 ---
 
